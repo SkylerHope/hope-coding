@@ -48,7 +48,7 @@ function App() {
       newPageContent = <LinuxPage linuxArticles={linuxArticles}/>
     } else if(pathname === '/tools') {
       document.title = 'Free tools and programs - Hope Coding';
-      newPageContent = <ToolsPage toolsContent={toolsContent}/>
+      newPageContent = <ToolsPage/>
     } else if(pathname ==='/about') {
       document.title = 'About SkylerHope';
       newPageContent = <AboutMePage/>
