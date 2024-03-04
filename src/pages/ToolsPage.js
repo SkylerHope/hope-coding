@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const ToolsPage = ({ toolsContent }) => {
+const ToolsPage = () => {
     const toolsContent = [
         {
             id: 1,
