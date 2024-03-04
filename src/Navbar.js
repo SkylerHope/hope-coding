@@ -1,5 +1,6 @@
 import React from "react";
 import './Navbar.css';
+import logo from './logo.svg';
 
 const Navbar = () => {
     return (
@@ -12,22 +13,22 @@ const Navbar = () => {
             <nav>
                 <ul className="navbar-ul">
                     <li className="navbar-item">
-                        <a href="http://localhost:3000/coding">
+                        <a href="/coding">
                             CODING
                         </a>
                     </li>
                     <li className="navbar-item">
-                        <a href="http://localhost:3000/linux">
+                        <a href="/linux">
                             Linux
                         </a>
                     </li>
                     <li className="navbar-item">
-                        <a href="http://localhost:3000/tools">
+                        <a href="/tools">
                             TOOLS
                         </a>
                     </li>
                     <li className="navbar-item">
-                        <a href="http:localhost:3000/about">
+                        <a href="/about">
                             ABOUT
                         </a>
                     </li>

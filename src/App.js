@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import './GlobalBackground.css';
+import Navbar from './Navbar';
 import CodingPage from './pages/CodingPage';
 import LinuxPage from './pages/LinuxPage';
 import ToolsPage from './pages/ToolsPage';
@@ -63,10 +64,8 @@ function App() {
   }, [pathname]);
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+    <div>
+      <Navbar/>
     </div>
   );
 }
