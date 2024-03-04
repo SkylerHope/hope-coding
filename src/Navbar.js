@@ -5,30 +5,30 @@ import logo from './logo.svg';
 const Navbar = () => {
     return (
         <header className="navbar">
-            <div className="logo">
-                <a href="https://hope-coding.netlify.app/">
-                    <img src={logo} alt="Logo"/>
-                </a>
-            </div>
             <nav>
                 <ul className="navbar-ul">
                     <li className="navbar-item">
-                        <a href="/coding">
+                        <a href="https://hope-coding.netlify.app/">
+                            <img src={logo} alt="Logo" className="logo"/>
+                        </a>
+                    </li>
+                    <li className="navbar-item">
+                        <a href="/coding" className="navbar-link">
                             CODING
                         </a>
                     </li>
                     <li className="navbar-item">
-                        <a href="/linux">
-                            Linux
+                        <a href="/linux" className="navbar-link">
+                            LINUX
                         </a>
                     </li>
                     <li className="navbar-item">
-                        <a href="/tools">
+                        <a href="/tools" className="navbar-link">
                             TOOLS
                         </a>
                     </li>
                     <li className="navbar-item">
-                        <a href="/about">
+                        <a href="/about" className="navbar-link">
                             ABOUT
                         </a>
                     </li>

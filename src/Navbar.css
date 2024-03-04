@@ -1,0 +1,34 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+}
+
+.navbar-ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.navbar-item {
+    padding: 14px 16px;
+    display: inline-block;
+}
+
+.navbar-link {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-link:visited {
+    color: white;
+}
+
+.navbar-link:hover {
+    color: whitesmoke;
+}
+
+.logo {
+    display: inline-block;
+}
