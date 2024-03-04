@@ -15,7 +15,20 @@ const codingArticles = [
     linkUrl: "https://www.freepik.com/",
     linkName: "Freepik"
   }
-]
+];
+
+const linuxArticles = [
+  {
+    id: 1,
+    date: "04/03/2024",
+    title: "Linux article",
+    category: "Operating systems",
+    imageUrl: "https://pakhotin.org/wp-content/uploads/2023/07/53113-106400-Linux-xl-1024x576.jpg",
+    content: "This is a paragraph for the linux article",
+    linkUrl: "https://www.linux.org/",
+    linkName: "Linux"
+  }
+];
 
 function App() {
   return (
