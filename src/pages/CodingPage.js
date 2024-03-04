@@ -14,12 +14,18 @@ const CodingPage = ({ codingArticles }) => {
                         </tr>
                         <tr>
                             <td>&nbsp;</td>
+                            <td><img src={article.imageUrl}/></td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
                             <td>{article.content}</td>
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
                             <td>&nbsp;</td>
                             <td><a href={article.linkUrl}>{article.linkName}</a></td>
+                            <td>&nbsp;</td>
                         </tr>
                     </table>
                 </div>
