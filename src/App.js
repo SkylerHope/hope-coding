@@ -1,8 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import './HomePage.css';
+import './GlobalBackground.css';
 import CodingPage from './pages/CodingPage';
 import LinuxPage from './pages/LinuxPage';
+import ToolsPage from './pages/ToolsPage';
+import AboutMePage from './pages/AboutMePage';
 
 function App() {
   return (
