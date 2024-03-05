@@ -43,7 +43,7 @@
 .latest-item {
   border: 3px solid gray;
   border-radius: 20px;
-  border-bottom: unset;
+  /*border-bottom: unset;*/
   background-image: radial-gradient(black, transparent);
   padding: 30px;
   margin-left: 30px;
@@ -51,4 +51,11 @@
   color: whitesmoke;
   text-align: center;
   text-decoration: none;
+}
+
+.latest-item:hover {
+  opacity: 0.7;
+  background-image: radial-gradient(white, transparent);
+  color: black;
+  border: 3px solid deepskyblue;
 }
