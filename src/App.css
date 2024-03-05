@@ -32,6 +32,7 @@
 .latest-articles-image {
   width: 400px;
   height: 225px;
+  border-radius: 75px;
 }
 
 .latest-articles-text {
@@ -54,8 +55,8 @@
 }
 
 .latest-item:hover {
-  opacity: 0.7;
-  background-image: radial-gradient(white, transparent);
+  opacity: 0.8;
+  background-image: radial-gradient(whitesmoke, transparent);
   color: black;
   border: 3px solid deepskyblue;
 }
