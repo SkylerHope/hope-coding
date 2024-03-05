@@ -19,6 +19,7 @@ function App() {
       title: "Linux article",
       category: "Operating systems",
       imageUrl: "https://pakhotin.org/wp-content/uploads/2023/07/53113-106400-Linux-xl-1024x576.jpg",
+      imageName: "Linux image",
       content: "This is a paragraph for the linux article",
       linkUrl: "https://www.linux.org/",
       linkName: "Linux"
@@ -32,6 +33,7 @@ function App() {
       title: "Coding article",
       category: "Programming",
       imageUrl: "https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg",
+      imageName: "Coding image",
       content: "This is a paragraph for the coding article",
       linkUrl: "https://www.freepik.com/",
       linkName: "Freepik"

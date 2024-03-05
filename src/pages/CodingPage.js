@@ -14,7 +14,7 @@ const CodingPage = ({ codingArticles }) => {
                         </tr>
                         <tr>
                             <td>&nbsp;</td>
-                            <td><img src={article.imageUrl}/></td>
+                            <td><img src={article.imageUrl} alt={article.imageName}/></td>
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
