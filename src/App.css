@@ -22,6 +22,11 @@
   color: #61dafb;
 }
 
+.latest-articles {
+  padding: 10px 12px;
+  display: inline-block;
+}
+
 .latest-articles-text {
   text-align: center;
   margin-top: 270px;

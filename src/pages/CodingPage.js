@@ -1,4 +1,5 @@
 import React from "react";
+import '../ArticleStyle.css';
 
 const CodingPage = ({ codingArticles }) => {
     return (
@@ -14,7 +15,7 @@ const CodingPage = ({ codingArticles }) => {
                         </tr>
                         <tr>
                             <td>&nbsp;</td>
-                            <td><img src={article.imageUrl} alt={article.imageName}/></td>
+                            <td><img src={article.imageUrl} alt={article.imageName} className="article-image"/></td>
                             <td>&nbsp;</td>
                         </tr>
                         <tr>
