@@ -44,15 +44,31 @@ function App() {
 
     if(pathname === '/coding') {
       document.title = 'Coding journey - Hope Coding';
+      let codingLink = document.getElementById('coding-link');
+      if(codingLink) {
+        codingLink.classList.add('navbar-active');
+      }
       newPageContent = <CodingPage codingArticles={codingArticles}/>
     } else if(pathname === '/linux') {
       document.title = 'Linux adventures - Hope Coding';
+      let linuxCoding = document.getElementById('linux-link');
+      if(linuxCoding) {
+        linuxCoding.classList.add('navbar-active');
+      }
       newPageContent = <LinuxPage linuxArticles={linuxArticles}/>
     } else if(pathname === '/tools') {
       document.title = 'Free tools and programs - Hope Coding';
+      let toolsLink = document.getElementById('tools-link');
+      if(toolsLink) {
+        toolsLink.classList.add('navbar-active');
+      }
       newPageContent = <ToolsPage/>
     } else if(pathname ==='/about') {
       document.title = 'About SkylerHope';
+      let aboutLink = document.getElementById('about-link');
+      if(aboutLink) {
+        aboutLink.classList.add('navbar-active');
+      }
       newPageContent = <AboutMePage/>
     } else {
       newPageContent = (

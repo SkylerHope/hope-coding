@@ -22,12 +22,12 @@
     color: white;
 }
 
-.navbar-link:visited {
-    color: white;
-}
-
 .navbar-link:hover {
     color: whitesmoke;
+}
+
+.navbar-active {
+    color: deepskyblue;
 }
 
 .logo {
