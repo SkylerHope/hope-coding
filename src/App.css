@@ -41,7 +41,10 @@
 }
 
 .latest-item {
+  border: 3px solid gray;
+  border-radius: 20px;
   padding: 30px;
+  margin-left: 50px;
   color: whitesmoke;
   text-decoration: none;
 }
