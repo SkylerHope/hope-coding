@@ -21,3 +21,9 @@
 .App-link {
   color: #61dafb;
 }
+
+.latest-articles-text {
+  text-align: center;
+  margin-top: 270px;
+  font-size: 50px;
+}

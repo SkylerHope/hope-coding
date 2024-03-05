@@ -73,7 +73,7 @@ function App() {
     } else {
       newPageContent = (
         <div>
-          <h1>Latest articles</h1>
+          <h1 className='latest-articles-text'>Latest articles</h1>
         </div>
       );
     }
