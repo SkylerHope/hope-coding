@@ -4,9 +4,9 @@ import '../ArticleStyle.css';
 const LinuxPage = ({ linuxArticles }) => {
     return (
         <div>
-            <h1>Linux related articles</h1>
+            <h1 className="article-heading">Linux related articles</h1>
             {linuxArticles.map(article => (
-                <div key={article.id}>
+                <div key={article.id} className="article-div">
                     <table>
                         <tr>
                             <th>{article.date}</th>

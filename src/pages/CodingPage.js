@@ -4,9 +4,9 @@ import '../ArticleStyle.css';
 const CodingPage = ({ codingArticles }) => {
     return (
         <div>
-            <h1>Coding related articles</h1>
+            <h1 className="article-heading">Coding related articles</h1>
             {codingArticles.map(article => (
-                <div key={article.id}>
+                <div key={article.id} className="article-div">
                     <table>
                         <tr>
                             <th>{article.date}</th>
