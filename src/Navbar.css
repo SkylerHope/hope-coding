@@ -11,8 +11,9 @@
 }
 
 .navbar-item {
-    padding: 14px 16px;
+    padding: 15px 41px;
     display: inline-block;
+    font-size: 160%;
 }
 
 .navbar-link {
@@ -31,4 +32,5 @@
 
 .logo {
     display: inline-block;
+    vertical-align: middle;
 }
