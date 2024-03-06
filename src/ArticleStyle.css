@@ -31,6 +31,7 @@ th {
 td {
     background-color: black;
     background-image: linear-gradient(45deg, purple, transparent);
+    text-align: center;
 }
 
 .article-heading {
