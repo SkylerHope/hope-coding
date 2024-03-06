@@ -6,6 +6,10 @@ This this the source code of my official coding blog
 
 ## Run the development server
 
+Install prerequisites
+
+[Node.js](https://nodejs.org/)
+
 Clone the project
 
 ```bash
