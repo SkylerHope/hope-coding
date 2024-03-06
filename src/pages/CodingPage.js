@@ -25,7 +25,7 @@ const CodingPage = ({ codingArticles }) => {
                         </tr>
                         <tr>
                             <td>&nbsp;</td>
-                            <td><a href={article.linkUrl}>{article.linkName}</a></td>
+                            <td><a href={article.linkUrl} className="table-link">{article.linkName}</a></td>
                             <td>&nbsp;</td>
                         </tr>
                     </table>

@@ -9,6 +9,18 @@ table {
     color: whitesmoke;
 }
 
+.table-link {
+    color: lime;
+}
+
+.table-link:hover {
+    color: limegreen;
+}
+
+.table-link:visited {
+    color: burlywood;
+}
+
 th {
     background-image: linear-gradient(45deg, black, transparent);
     background-color: orchid;
