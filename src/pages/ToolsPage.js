@@ -10,6 +10,13 @@ const ToolsPage = () => {
             description: "Display and edit file metadata",
             toolUrl: "https://exiftool.org/",
             toolUrlName: "exiftool.org"
+        },
+        {
+            id: 2,
+            name: "VirusTotal (Web)",
+            description: "Scan files and URLs for malware",
+            toolUrl: "https://www.virustotal.com/",
+            toolUrlName: "virustotal.com"
         }
     ];
 
