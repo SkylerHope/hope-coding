@@ -44,4 +44,4 @@ Start the server
 
 Contributions to make the project better are always welcome!
 
-See `COPYING` if you wish to use the code in your own projects.
+Check the [license](https://github.com/SkylerHope/hope-coding?tab=GPL-3.0-1-ov-file#readme) if you wish to use the code in your own projects.
