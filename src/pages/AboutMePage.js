@@ -10,7 +10,15 @@ const AboutMePage = () => {
                 I'm Skyler and welcome to my coding blog. I don't have lots of experience in web development but I'm learning React because
                 my internship requires it. That's why I'm building this website. I'm mostly interested in Cyber Security and building easy-to-use CLI programs.
                 The languages I used so far are C++, Java, php, JavaScript and Python. The idea behind this blog was to practice React and also use this opportunity
-                to track my coding progress. If you want to contact me or even build a project together, here are my social links:
+                to track my coding progress.
+            </h3>
+            <br/>
+            <h3 className="aboutme-text">
+                I was in college for 2 years and now I'm on my 3rd month of my internship. Before college I had a bit of a programming background as I used to
+                experiment. I already knew C++ when I started. We had all sorts of classes. That includes game development, video editing, photoshop, web development,
+                3d modeling and I'm propably forgetting some. As you can see, we weren't able to focus on one thing. But I'm moving on to great things. Believe in 
+                yourself. The only support you need is your own, that's my mindset. If you want to contact me or even build a project together, here are my social 
+                links:
             </h3>
             <div className="social-div">
                 <a href="https://github.com/SkylerHope" className="social-item">
