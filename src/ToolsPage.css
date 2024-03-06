@@ -7,3 +7,23 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+th {
+    padding: 17px;
+}
+
+td {
+    padding: 10px;
+}
+
+.table-link {
+    color: lime;
+}
+
+.table-link:hover {
+    color: limegreen;
+}
+
+.table-link:visited {
+    color: burlywood;
+}

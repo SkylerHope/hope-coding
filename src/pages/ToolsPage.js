@@ -29,7 +29,7 @@ const ToolsPage = () => {
                         <tr key={tools.id}>
                             <td>{tools.name}</td>
                             <td>{tools.description}</td>
-                            <td><a href={tools.toolUrl}>{tools.toolUrlName}</a></td>
+                            <td><a href={tools.toolUrl} className="table-link">{tools.toolUrlName}</a></td>
                         </tr>
                     ))}
                 </tbody>
