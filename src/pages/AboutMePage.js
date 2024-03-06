@@ -6,7 +6,7 @@ const AboutMePage = () => {
         <div className="aboutme-div">
             <img src="https://files.mastodon.social/accounts/avatars/111/918/013/232/891/984/original/3e48dcc21a18d33c.jpeg" alt="Skyler Avatar" className="avatar"/>
             <h1>About Me</h1>
-            <h3>
+            <h3 className="aboutme-text">
                 I'm Skyler and welcome to my coding blog. I don't have lots of experience in web development but I'm learning React because
                 my internship requires it. That's why I'm building this website. I'm mostly interested in Cyber Security and building easy-to-use CLI programs.
                 The languages I used so far are C++, Java, php, JavaScript and Python. The idea behind this blog was to practice React and also use this opportunity
