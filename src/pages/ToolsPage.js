@@ -1,4 +1,5 @@
 import React from "react";
+import '../ToolsPage.css';
 
 
 const ToolsPage = () => {
@@ -14,8 +15,8 @@ const ToolsPage = () => {
 
     return (
         <div>
-            <h1><i>Here's a list of free tools and programs:</i></h1>
-            <table>
+            <h1 className="tools-heading"><i>Here's a list of free tools and programs:</i></h1>
+            <table className="tools-table">
                 <thead>
                     <tr>
                         <th>Name</th>
