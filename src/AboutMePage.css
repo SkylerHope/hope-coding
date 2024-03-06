@@ -15,3 +15,11 @@
 .social-item {
     padding: 20px 26px;
 }
+
+.social-item:hover {
+    opacity: 0.5;
+}
+
+.social-image {
+    height: 40px;
+}

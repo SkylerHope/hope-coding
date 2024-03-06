@@ -8,10 +8,18 @@ const AboutMePage = () => {
             <h1>About Me</h1>
             <h3>This is the about me paragraph</h3>
             <div className="social-div">
-                <a href="https://github.com/SkylerHope" className="social-item">GitHub</a>
-                <a href="https://mastodon.social/@Skyler_Sh" className="social-item">Mastodon</a>
-                <a href="https://twitter.com/SkylerHopeSh" className="social-item">Twitter</a>
-                <a href="https://dev.to/skylerhope" className="social-item">Dev</a>
+                <a href="https://github.com/SkylerHope" className="social-item">
+                    <img src="https://img.shields.io/badge/GitHub-gray?style=plastic&logo=github" alt="GitHub" className="social-image"/>
+                </a>
+                <a href="https://mastodon.social/@Skyler_Sh" className="social-item">
+                    <img src="https://img.shields.io/badge/Mastodon-blueviolet?style=plastic&logo=mastodon" alt="Mastodon" className="social-image"/>
+                </a>
+                <a href="https://twitter.com/SkylerHopeSh" className="social-item">
+                    <img src="https://img.shields.io/badge/Twitter-blue?style=plastic&logo=twitter" alt="Twitter" className="social-image"/>
+                </a>
+                <a href="https://dev.to/skylerhope" className="social-item">
+                    <img src="https://img.shields.io/badge/Dev-black?style=plastic&logo=dev.to&logoColor=white" alt="Dev" className="social-image"/>
+                </a>
             </div>
         </div>
     );
