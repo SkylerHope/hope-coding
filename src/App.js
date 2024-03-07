@@ -17,6 +17,17 @@ function App() {
 
     const codingArticles = [
       {
+        id: 2,
+        date: "07/03/2024",
+        title: "New coding article",
+        category: "Programming",
+        imageUrl: "https://www.computersciencedegreehub.com/wp-content/uploads/2023/02/shutterstock_535124956-scaled.jpg",
+        imageName: "New coding image",
+        content: "This is a new article related to coding. Its new, fresh and also it is meant to be used for testing with the navbar. Nice. Woooooo",
+        linkUrl: "https://www.computersciencedegreehub.com/",
+        linkName: "Image source"
+      },
+      {
         id: 1,
         date: "04/03/2024",
         title: "Coding article",
@@ -77,7 +88,7 @@ function App() {
           <h1 className='latest-articles-text'>Latest articles</h1>
           <div className='latest-articles'>
             <a href='https://hope-coding.netlify.app/coding' className='latest-item'>
-              <img src='https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg' className='latest-articles-image' alt='Coding article'/>
+              <img src='https://www.computersciencedegreehub.com/wp-content/uploads/2023/02/shutterstock_535124956-scaled.jpg' className='latest-articles-image' alt='Coding article'/>
               <hr/>
               <h4>Coding article</h4>
             </a>
