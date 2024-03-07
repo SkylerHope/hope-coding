@@ -72,3 +72,25 @@ td {
         font-size: 60%;
     }
 }
+
+@media (max-width: 414px) {
+    .article-image {
+        width: 180px;
+        height: 110px;
+    }
+    .article-heading {
+        font-size: 20px;
+    }
+    .article-table {
+        width: 180px;
+        height: 110px;
+    }
+    th {
+        padding-left: 2px;
+        padding-right: 2px;
+        font-size: 10px;
+    }
+    td {
+        font-size: 60%;
+    }
+}
