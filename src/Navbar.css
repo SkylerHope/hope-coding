@@ -29,3 +29,16 @@
     display: inline-block;
     vertical-align: middle;
 }
+
+@media (max-width: 375px) {
+    .logo {
+        visibility: hidden;
+    }
+    .navbar {
+        width: 295px;
+    }
+    .navbar-item {
+        padding: 5px 30px;
+        font-size: 120%;
+    }
+}

@@ -59,3 +59,17 @@
   color: black;
   border: 3px solid deepskyblue;
 }
+
+@media (max-width: 375px) {
+  .latest-articles-image {
+    height: 70px;
+    width: 80px;
+  }
+  .latest-articles-text {
+    font-size: 20px;
+  }
+  .latest-item {
+    height: 245px;
+    width: 200px;
+  }
+}
