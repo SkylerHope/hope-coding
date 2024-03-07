@@ -43,14 +43,14 @@ function App() {
     const linuxArticles = [
       {
         id: 1,
-        date: "04/03/2024",
-        title: "Linux article",
-        category: "Operating systems",
-        imageUrl: "https://pakhotin.org/wp-content/uploads/2023/07/53113-106400-Linux-xl-1024x576.jpg",
-        imageName: "Linux image",
-        content: "This is a paragraph for the linux article",
-        linkUrl: "https://www.linux.org/",
-        linkName: "Linux"
+        date: "07/03/2024",
+        title: "NVIDIA and Linux? I survived a full system upgrade!",
+        category: "Updates",
+        imageUrl: "https://news.itsfoss.com/content/images/size/w1304/wordpress/2022/05/linus-torvalds-nvidia.jpg",
+        imageName: "Linus giving nvidia the finger",
+        content: "A new kernel update arrived yesterday, and I tried to hold back any packages related to nvidia (didn't work) just so my system won't break. I also created a bootable usb with EndeavourOS just in case (I forgot to create snapshots). I started the update and it updated my nvidia packages too anyway. I was ready for the system to break after reboot, but it didn't. In fact it works normally. I don't know how, but maybe the Linux & NVIDIA relationship is getting better with newer kernel updates.",
+        linkUrl: "https://www.kernel.org/",
+        linkName: "The Linux Kernel Archives"
       }
     ];
 
@@ -87,15 +87,15 @@ function App() {
         <div>
           <h1 className='latest-articles-text'>Latest articles</h1>
           <div className='latest-articles'>
+            <a href='https://hope-coding.netlify.app/linux' className='latest-item'>
+              <img src='https://news.itsfoss.com/content/images/size/w1304/wordpress/2022/05/linus-torvalds-nvidia.jpg' className='latest-articles-image' alt='Linux article'/>
+              <hr/>
+              <h4>NVIDIA and Linux? I survived a full system upgrade!</h4>
+            </a>
             <a href='https://hope-coding.netlify.app/coding' className='latest-item'>
               <img src='https://www.computersciencedegreehub.com/wp-content/uploads/2023/02/shutterstock_535124956-scaled.jpg' className='latest-articles-image' alt='Coding article'/>
               <hr/>
               <h4>Coding article</h4>
-            </a>
-            <a href='https://hope-coding.netlify.app/linux' className='latest-item'>
-              <img src='https://pakhotin.org/wp-content/uploads/2023/07/53113-106400-Linux-xl-1024x576.jpg' className='latest-articles-image' alt='Linux article'/>
-              <hr/>
-              <h4>Linux article</h4>
             </a>
           </div>
         </div>
