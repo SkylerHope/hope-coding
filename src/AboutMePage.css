@@ -30,23 +30,12 @@
     margin-right: 250px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
     .avatar {
         height: 130px;
     }
     .aboutme-text {
         font-size: 10px;
-        margin-left: 30px;
-        margin-right: 30px;
-    }
-}
-
-@media (max-width: 414px) {
-    .avatar {
-        height: 140px;
-    }
-    .aboutme-text {
-        font-size: 15px;
         margin-left: 30px;
         margin-right: 30px;
     }

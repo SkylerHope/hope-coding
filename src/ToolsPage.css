@@ -31,25 +31,12 @@ td {
     color: burlywood;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
     .tools-table {
         width: 170px;
         height: 100px;
     }
     .tools-heading {
         font-size: 20px;
-    }
-}
-
-@media (max-width: 414px) {
-    .tools-heading {
-        font-size: 20px;
-    }
-}
-
-@media (max-width: 390px) {
-    .tools-table {
-        width: 360px;
-        height: 100px;
     }
 }
