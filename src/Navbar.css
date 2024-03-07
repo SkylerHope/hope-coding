@@ -42,3 +42,16 @@
         font-size: 120%;
     }
 }
+
+@media (max-width: 414px) {
+    .logo {
+        visibility: hidden;
+    }
+    .navbar {
+        width: 320px;
+    }
+    .navbar-item {
+        padding: 7px 32px;
+        font-size: 130%;
+    }
+}

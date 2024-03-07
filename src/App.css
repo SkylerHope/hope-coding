@@ -73,3 +73,17 @@
     width: 200px;
   }
 }
+
+@media (max-width: 414px) {
+  .latest-articles-image {
+    height: 80px;
+    width: 90px;
+  }
+  .latest-articles-text {
+    font-size: 20px;
+  }
+  .latest-item {
+    height: 255px;
+    width: 210px;
+  }
+}
