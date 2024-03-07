@@ -55,3 +55,18 @@
         font-size: 130%;
     }
 }
+
+@media (max-width: 430px) {
+    .logo {
+        visibility: hidden;
+    }
+    .navbar {
+        width: 390px;
+        font-size: 130%;
+        text-align: center;
+        margin-left: 130px;
+    }
+    .navbar-item {
+        padding: 7px 32px;
+    }
+}
