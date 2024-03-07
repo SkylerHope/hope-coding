@@ -29,3 +29,14 @@
     margin-left: 250px;
     margin-right: 250px;
 }
+
+@media (max-width: 375px) {
+    .avatar {
+        height: 130px;
+    }
+    .aboutme-text {
+        font-size: 10px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
