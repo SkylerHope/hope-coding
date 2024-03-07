@@ -46,3 +46,29 @@ td {
     justify-content: center;
     margin-bottom: 130px;
 }
+
+.article-content {
+    text-align: center;
+}
+
+@media (max-width: 375px) {
+    .article-image {
+        width: 170px;
+        height: 100px;
+    }
+    .article-heading {
+        font-size: 20px;
+    }
+    .article-table {
+        width: 170px;
+        height: 100px;
+    }
+    th {
+        padding-left: 2px;
+        padding-right: 2px;
+        font-size: 70%;
+    }
+    td {
+        font-size: 60%;
+    }
+}
