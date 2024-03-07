@@ -7,7 +7,7 @@ const LinuxPage = ({ linuxArticles }) => {
             <h1 className="article-heading">Linux related articles</h1>
             {linuxArticles.map(article => (
                 <div key={article.id} className="article-div">
-                    <table>
+                    <table className="article-table">
                         <tr>
                             <th>{article.date}</th>
                             <th>{article.title}</th>

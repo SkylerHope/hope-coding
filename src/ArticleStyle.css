@@ -1,14 +1,14 @@
 .article-image {
-    width: 400px;
-    height: 225px;
+    width: 625px;
+    height: 350px;
     border-radius: 10px;
 }
 
-table {
+.article-table {
     border: 2px solid whitesmoke;
     color: whitesmoke;
-    width: 400px;
-    height: 225px;
+    width: 625px;
+    height: 350px;
 }
 
 .table-link {

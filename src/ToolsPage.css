@@ -6,6 +6,9 @@
 .tools-table {
     margin-left: auto;
     margin-right: auto;
+    width: 400px;
+    height: 225px;
+    border: 2px solid whitesmoke;
 }
 
 th {
