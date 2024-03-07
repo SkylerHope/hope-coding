@@ -40,3 +40,9 @@ td {
         font-size: 20px;
     }
 }
+
+@media (max-width: 414px) {
+    .tools-heading {
+        font-size: 20px;
+    }
+}
