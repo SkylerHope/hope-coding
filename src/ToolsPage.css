@@ -30,3 +30,13 @@ td {
 .table-link:visited {
     color: burlywood;
 }
+
+@media (max-width: 375px) {
+    .tools-table {
+        width: 170px;
+        height: 100px;
+    }
+    .tools-heading {
+        font-size: 20px;
+    }
+}
