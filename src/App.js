@@ -17,6 +17,17 @@ function App() {
 
     const codingArticles = [
       {
+        id: 2,
+        date: "08/03/2024",
+        title: "Develop a SoundCloud client?",
+        category: "Software",
+        imageUrl: "https://static1.pocketlintimages.com/wordpress/wp-content/uploads/2023/04/what-is-soundcloud.jpg",
+        imageName: "SoundCloud Logo",
+        content: "I was looking at the API section of SoundCloud's website and I wondered, imagine if I tried to develop a desktop client for SoundCloud. I'm worried tho cause I looked for similar projects and to my knowledge they were taken down or took a whole different turn on what it was supossed to be. If you guys know, send me a message on my socials, thank you.",
+        linkUrl: "https://developers.soundcloud.com/docs/api/guide",
+        linkName: "SoundCloud API"
+      },
+      {
         id: 1,
         date: "07/03/2024",
         title: "Join this community of developers",
@@ -77,9 +88,9 @@ function App() {
           <h1 className='latest-articles-text'>Latest articles</h1>
           <div className='latest-articles'>
             <a href='https://hope-coding.netlify.app/coding' className='latest-item'>
-              <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/83/96/4f/83964fcd-de07-3829-ad64-c5726e09e5dc/AppIcon-1x_U007emarketing-0-0-0-10-0-0-85-220.png/1200x630wa.png' className='latest-articles-image' alt='Coding article'/>
+              <img src='https://static1.pocketlintimages.com/wordpress/wp-content/uploads/2023/04/what-is-soundcloud.jpg' className='latest-articles-image' alt='Coding article'/>
               <hr/>
-              <h4>Join this community of developers</h4>
+              <h4>Develop a SoundCloud client?</h4>
             </a>
             <a href='https://hope-coding.netlify.app/linux' className='latest-item'>
               <img src='https://news.itsfoss.com/content/images/size/w1304/wordpress/2022/05/linus-torvalds-nvidia.jpg' className='latest-articles-image' alt='Linux article'/>
