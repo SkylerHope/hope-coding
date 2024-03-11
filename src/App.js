@@ -17,6 +17,17 @@ function App() {
 
     const codingArticles = [
       {
+        id: 3,
+        date: "11/03/2024",
+        title: "Building a password manager with Flutter",
+        category: "Software",
+        imageUrl: "https://miro.medium.com/v2/resize:fit:1400/1*6JxdGU2WIzHSUEGBx4QeAQ.jpeg",
+        imageName: "Flutter Image",
+        content: "Hi everyone! I decided today to develop a password manager. I chose Flutter to learn it in the process too. I have some ideas and features in mind, including security related features. Right now the default codebase hasn't changed much due to Flutter's learning curve. It's gonna be a long journey. You can check the project repository on my GitHub page.",
+        linkUrl: "https://github.com/SkylerHope/skypass_manager",
+        linkName: "GitHub repository"
+      },
+      {
         id: 2,
         date: "08/03/2024",
         title: "Develop a SoundCloud client?",
@@ -88,9 +99,9 @@ function App() {
           <h1 className='latest-articles-text'>Latest articles</h1>
           <div className='latest-articles'>
             <a href='https://hope-coding.netlify.app/coding' className='latest-item'>
-              <img src='https://static1.pocketlintimages.com/wordpress/wp-content/uploads/2023/04/what-is-soundcloud.jpg' className='latest-articles-image' alt='Coding article'/>
+              <img src='https://miro.medium.com/v2/resize:fit:1400/1*6JxdGU2WIzHSUEGBx4QeAQ.jpeg' className='latest-articles-image' alt='Coding article'/>
               <hr/>
-              <h4>Develop a SoundCloud client?</h4>
+              <h4>Building a password manager with Flutter</h4>
             </a>
             <a href='https://hope-coding.netlify.app/linux' className='latest-item'>
               <img src='https://news.itsfoss.com/content/images/size/w1304/wordpress/2022/05/linus-torvalds-nvidia.jpg' className='latest-articles-image' alt='Linux article'/>
