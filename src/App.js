@@ -17,6 +17,17 @@ function App() {
 
     const codingArticles = [
       {
+        id: 4,
+        date: "12/03/2024",
+        title: "Dropped Flutter, trying Electron",
+        category: "Framework",
+        imageUrl: "https://miro.medium.com/v2/resize:fit:1400/1*pZSdLbXSCEDZRFjTuapE5Q.png",
+        imageName: "Electron Logo",
+        content: "I made the decision to build my password manager with Electron instead of Flutter. I understand the pros and cons that come with that, it's just the deep learning curve of Flutter that pulled me away. Maybe next time, who knows? I mean, I developed this website with React and I still don't know it well. With Electron, I can just use classic web dev to achieve my goal, seems easier to me. New github repo below.",
+        linkUrl: "https://github.com/SkylerHope/skypass-manager",
+        linkName: "New github repo"
+      },
+      {
         id: 3,
         date: "11/03/2024",
         title: "Building a password manager with Flutter",
@@ -99,9 +110,9 @@ function App() {
           <h1 className='latest-articles-text'>Latest articles</h1>
           <div className='latest-articles'>
             <a href='https://hope-coding.netlify.app/coding' className='latest-item'>
-              <img src='https://miro.medium.com/v2/resize:fit:1400/1*6JxdGU2WIzHSUEGBx4QeAQ.jpeg' className='latest-articles-image' alt='Coding article'/>
+              <img src='https://miro.medium.com/v2/resize:fit:1400/1*pZSdLbXSCEDZRFjTuapE5Q.png' className='latest-articles-image' alt='Coding article'/>
               <hr/>
-              <h4>Building a password manager with Flutter</h4>
+              <h4>Dropped Flutter, trying Electron</h4>
             </a>
             <a href='https://hope-coding.netlify.app/linux' className='latest-item'>
               <img src='https://news.itsfoss.com/content/images/size/w1304/wordpress/2022/05/linus-torvalds-nvidia.jpg' className='latest-articles-image' alt='Linux article'/>
