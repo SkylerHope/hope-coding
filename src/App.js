@@ -17,6 +17,17 @@ function App() {
 
     const codingArticles = [
       {
+        id: 5,
+        date: "01/04/2024",
+        title: "Hosting a React website on AWS",
+        category: "Software",
+        imageUrl: "https://i.postimg.cc/hGy0k8Ss/Screenshot-2024-04-01-19-27-07.png",
+        imageName: "React website on AWS",
+        content: "The company I do my internship at asked me to host a React website on AWS. The only experience I have with AWS is with virtual machines to run discord bots 24/7. The tutorial is pretty clear for the most part. It's just gonna take a bit of practice. Lots of stuff to learn, like using databases in AWS etc. I made what the tutorial was showing me, you can find a link below.",
+        linkUrl: "https://master.d99mphiukvbd5.amplifyapp.com/",
+        linkName: "https://master.d99mphiukvbd5.amplifyapp.com/"
+      },
+      {
         id: 4,
         date: "12/03/2024",
         title: "Dropped Flutter, trying Electron",
@@ -110,9 +121,9 @@ function App() {
           <h1 className='latest-articles-text'>Latest articles</h1>
           <div className='latest-articles'>
             <a href='https://hope-coding.netlify.app/coding' className='latest-item'>
-              <img src='https://miro.medium.com/v2/resize:fit:1400/1*pZSdLbXSCEDZRFjTuapE5Q.png' className='latest-articles-image' alt='Coding article'/>
+              <img src='https://i.postimg.cc/hGy0k8Ss/Screenshot-2024-04-01-19-27-07.png' className='latest-articles-image' alt='Coding article'/>
               <hr/>
-              <h4>Dropped Flutter, trying Electron</h4>
+              <h4>Hosting a React website on AWS</h4>
             </a>
             <a href='https://hope-coding.netlify.app/linux' className='latest-item'>
               <img src='https://news.itsfoss.com/content/images/size/w1304/wordpress/2022/05/linus-torvalds-nvidia.jpg' className='latest-articles-image' alt='Linux article'/>
