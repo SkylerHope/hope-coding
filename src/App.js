@@ -75,6 +75,17 @@ function App() {
 
     const linuxArticles = [
       {
+        id: 2,
+        date: "08/04/2024",
+        title: "Arch Linux with KDE Plasma",
+        category: "Linux Distro",
+        imageUrl: "https://i.ibb.co/rbFdYRJ/Screenshot-20240408-144018.png",
+        imageName: "Arch Linux with KDE Plasma",
+        content: "So I bought a laptop for my internship. I first installed Manjaro but I decided to finally make the switch to Arch. I wasn't sure if I wanted GNOME or KDE Plasma. I find GNOME to be a little annoying so I chose KDE Plasma. It's a very nice and modern looking desktop enviroment. Sadly it won't run so great on older systems. If you do have an older system, maybe try XFCE. Back to Arch. One of the reasons I already like Arch is the fact that when you install it, it updates the packages too so when you boot, it's ready to go. I like the distro so far and I can see why so many people like it. Time for me to flex too: I use Arch btw. If you have the time, checkout the link to the official KDE Plasma website.",
+        linkUrl: "https://kde.org/plasma-desktop",
+        linkName: "https://kde.org/plasma-desktop/"
+      },
+      {
         id: 1,
         date: "07/03/2024",
         title: "NVIDIA and Linux? I survived a full system upgrade!",
@@ -126,9 +137,9 @@ function App() {
               <h4>Hosting a React website on AWS</h4>
             </a>
             <a href='https://hope-coding.netlify.app/linux' className='latest-item'>
-              <img src='https://news.itsfoss.com/content/images/size/w1304/wordpress/2022/05/linus-torvalds-nvidia.jpg' className='latest-articles-image' alt='Linux article'/>
+              <img src='https://i.ibb.co/rbFdYRJ/Screenshot-20240408-144018.png' className='latest-articles-image' alt='Linux article'/>
               <hr/>
-              <h4>NVIDIA and Linux? I survived a full system upgrade!</h4>
+              <h4>Arch Linux with KDE Plasma</h4>
             </a>
           </div>
         </div>
