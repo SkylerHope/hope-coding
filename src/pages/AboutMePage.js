@@ -4,7 +4,7 @@ import '../AboutMePage.css';
 const AboutMePage = () => {
     return (
         <div className="aboutme-div">
-            <img src="https://files.mastodon.social/accounts/avatars/111/918/013/232/891/984/original/3e48dcc21a18d33c.jpeg" alt="Skyler Avatar" className="avatar"/>
+            <img src="https://avatars.githubusercontent.com/u/142663439?v=4" alt="Skyler Avatar" className="avatar"/>
             <h1>About Me</h1>
             <h3 className="aboutme-text">
                 I'm Skyler and welcome to my coding blog. I don't have lots of experience in web development but I'm learning React because
