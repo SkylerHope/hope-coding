@@ -17,6 +17,17 @@ function App() {
 
     const codingArticles = [
       {
+        id: 6,
+        date: "13/06/2024",
+        title: "Project Shutdown",
+        category: "Goodbye",
+        imageUrl: "https://png.pngtree.com/thumb_back/fh260/background/20230611/pngtree-person-is-sitting-outdoors-looking-into-the-sunset-image_2955635.jpg",
+        imagineName: "Loner",
+        content: "It's been a while. I know that probably nobody is reading this but if you are, thank you. A lot has happened in the last 2 months that made me wanna quit everything. I lost my energy to keep working on my projects such as this blog, my password manager and a browser that I stopped working on completely. This website (if you can call it that) is not going anywhere, it never was meant to go anywhere as I never was prepared to take it further. I'll shut it down in a week. The source code of the project will remain on GitHub as an archive. Link below",
+        linkUrl: "https://github.com/SkylerHope/hope-coding",
+        linkName: "Source Code"
+      },
+      {
         id: 5,
         date: "01/04/2024",
         title: "Hosting a React website on AWS",
@@ -132,9 +143,9 @@ function App() {
           <h1 className='latest-articles-text'>Latest articles</h1>
           <div className='latest-articles'>
             <a href='https://hope-coding.netlify.app/coding' className='latest-item'>
-              <img src='https://i.postimg.cc/hGy0k8Ss/Screenshot-2024-04-01-19-27-07.png' className='latest-articles-image' alt='Coding article'/>
+              <img src='https://png.pngtree.com/thumb_back/fh260/background/20230611/pngtree-person-is-sitting-outdoors-looking-into-the-sunset-image_2955635.jpg' className='latest-articles-image' alt='Coding article'/>
               <hr/>
-              <h4>Hosting a React website on AWS</h4>
+              <h4>Project Shutdown</h4>
             </a>
             <a href='https://hope-coding.netlify.app/linux' className='latest-item'>
               <img src='https://i.ibb.co/rbFdYRJ/Screenshot-20240408-144018.png' className='latest-articles-image' alt='Linux article'/>
